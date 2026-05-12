@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Unit Test Coverage"
+  short_description: "Keep React components and pages tested"
+  default_prompt: "Use $react-unit-test-coverage before changing React components or pages so tests stay current."
