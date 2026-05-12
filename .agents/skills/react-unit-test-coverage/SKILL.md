@@ -15,6 +15,7 @@ description: Use when a coding agent changes React components, pages, hooks, rou
 6. Keep tests deterministic and small. Avoid snapshots unless the output is intentionally stable and a behavior assertion would be weaker.
 7. Run validation before handoff:
    - `npm run test` for the unit suite.
+   - `npm run test:typecheck` for TypeScript errors in test files.
    - `npm run test:coverage` when new files or meaningful behavior were added.
    - `npm run check` before finishing any code change.
 
@@ -28,6 +29,7 @@ description: Use when a coding agent changes React components, pages, hooks, rou
 ## Project Commands
 
 - `npm run test`: run Vitest once in jsdom.
+- `npm run test:typecheck`: type-check test files.
 - `npm run test:watch`: keep Vitest running while actively editing.
 - `npm run test:coverage`: run the unit suite with V8 coverage thresholds.
 - `npm run check`: run lint, unit tests, and production build.

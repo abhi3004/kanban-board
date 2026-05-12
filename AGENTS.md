@@ -11,5 +11,6 @@
 ## Validation Commands
 
 - `npm run test` runs unit tests once.
+- `npm run test:typecheck` type-checks unit test files.
 - `npm run test:coverage` checks coverage with the configured thresholds.
 - `npm run check` runs lint, tests, and production build.
